@@ -66,8 +66,7 @@ WarranChain/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yongjing479/WarranChain.git
-   cd WarranChain/WarranChain
+   git clone https://github.com/dingxing03/WarranChain
    ```
 
 2. **Install Frontend Dependencies**
@@ -114,7 +113,14 @@ WarranChain/
    npm start
    ```
 
-7. **Access the Application**
+7. **Start the Python Backend**
+   ```
+   cd backend
+   pip install -r requirements.txt
+   python app.py
+   ```
+
+8. **Access the Application**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:3001
 
