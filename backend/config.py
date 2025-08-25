@@ -14,9 +14,9 @@ class Config:
     SUI_RPC_URL = os.getenv("SUI_RPC_URL", "https://fullnode.devnet.sui.io:443")
     
     # Contract Configuration (matching frontend contractConfig.js)
-    NFT_PACKAGE_ID = os.getenv("NFT_PACKAGE_ID", "0x4ec65b90d688d71fd9b02a25b7a55bc22834b3fff953568aed46066a9fff07bd")
+    NFT_PACKAGE_ID = os.getenv("NFT_PACKAGE_ID", "")
     MODULE_NAME = "warranty_nft"
-    PUBLISHER = os.getenv("PUBLISHER", "0x4290b769f1ed2d52615f0cfc2a63276d2ab480b0664e93caf7d61025a4245024")
+    PUBLISHER = os.getenv("PUBLISHER", "")
     
     # Event types for sustainability tracking
     EVENT_TYPES = {
@@ -32,4 +32,4 @@ class Config:
     DEBUG = os.getenv("DEBUG", "False") == "True"
     
     # Chatbot Configuration
-    OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+    OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "") # Define your OpenRouter API key
